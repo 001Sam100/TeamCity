@@ -1,3 +1,4 @@
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 $version = $build.number
 
 write-host $version
