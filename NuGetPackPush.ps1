@@ -1,5 +1,7 @@
 $version = $build.number
 
+write-host $version
+
 cd F:\NuGet
 F:
 .\nuget.exe pack -Version $version .\TeamDemo.nuspec
